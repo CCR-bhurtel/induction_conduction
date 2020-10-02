@@ -4,7 +4,10 @@ class Conductor {
         this.width = w;
         this.height = h;
         this.negitive = initialNegCharge;
-        this.positive = initialPosCharge; 
+        this.positive = initialPosCharge;
+
+
+        this.isDragging = false;
     }
 
     Start(){
@@ -12,7 +15,15 @@ class Conductor {
     }
 
     Update() {
+        this.render();
+    }
 
+    render() {
+        push()
+        fill(255);
+        rectMode(CENTER);
+        rect(this.position.x, this.position.y, this.width,this.height);
+        pop();
     }
 
     // TODO Render conductor
