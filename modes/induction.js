@@ -1,7 +1,7 @@
 class Induction {
     constructor() {
-        this.rod = new EboniteRod(0,0,0,0,0,0);
-        this.conductor = new Conductor(0,0,0,0,0,0);
+        this.rod = new EboniteRod(100, 100, 500, 50, 0, 0);
+        this.conductor = new Conductor(400,600, 100, 100, 0, 0);
     }
 
     Start() {
@@ -10,12 +10,13 @@ class Induction {
     }
 
     Update() {
+        
         this.render();
     }
 
     render() {
-        this.rod.Update();
         this.conductor.Update();
+        this.rod.Update();
     }
 
     isCollided() {
