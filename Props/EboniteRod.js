@@ -5,6 +5,8 @@ class EboniteRod {
         this.height = h;
         this.negitive = initailNegCharge;
         this.positive = initialPosCharge;
+
+        this.isDragging = false;
     }
 
     Start() {
@@ -12,11 +14,24 @@ class EboniteRod {
     }
 
     Update() {
+        if (Input.onMouseClicked(this) && Input.currentlySelected().length - 1 === 0) {
+            this.isDragging = true;
+        }
+        if(Input.onMouseReleased()) {
+            this.isDragging = false;
+        }
+
+        if(this.isDragging) {
+            this.position = createVector(mouseX, mouseY)
+        }
         this.render();
     }
 
     render() {
+        push()
         fill(255);
-        rect(70, 30, 10, 50 );
+        rectMode(CENTER);
+        rect(this.position.x, this.position.y, this.width, this.height);
+        pop();
     }
 }
