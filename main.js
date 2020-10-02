@@ -2,7 +2,7 @@ let induction;
 let Input;
 
 window.addEventListener("load", () => {
-    Input = new Input();
+    Input = new inputSystem()
 })
 
 
@@ -16,4 +16,12 @@ function setup(){
 function draw() {
     background(0);
     induction.Update();
+    Input.Update();
+
+    console.log(Input.currentlySelected().length)
+}
+
+
+function mouseReleased() {
+    Input.mouseReleased = true;
 }
