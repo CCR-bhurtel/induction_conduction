@@ -17,7 +17,8 @@ class Conductor {
 
   render() {
     push();
-    fill(255);
+    noFill();
+    stroke(0,200,0);
     rectMode(CENTER);
     rect(this.position.x, this.position.y, this.width, this.height);
     pop();
