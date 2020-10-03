@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Element" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-width:3.4104;stroke-miterlimit:10;}
+	.st1{fill:url(#SVGID_2_);stroke:#000000;stroke-width:3.4104;stroke-miterlimit:10;}
+</style>
+<g>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="347.6946" y1="836.3095" x2="347.6946" y2="988.7672" gradientTransform="matrix(0 -1 1 0 -412.5384 859.0626)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="7.292725e-03" style="stop-color:#F9F9F9"/>
+		<stop  offset="7.055805e-02" style="stop-color:#CBCBCB"/>
+		<stop  offset="0.1396" style="stop-color:#A1A1A1"/>
+		<stop  offset="0.2129" style="stop-color:#7C7C7C"/>
+		<stop  offset="0.2916" style="stop-color:#5E5E5E"/>
+		<stop  offset="0.3774" style="stop-color:#454545"/>
+		<stop  offset="0.4732" style="stop-color:#323232"/>
+		<stop  offset="0.5846" style="stop-color:#242424"/>
+		<stop  offset="0.7255" style="stop-color:#1C1C1C"/>
+		<stop  offset="0.9944" style="stop-color:#1A1A1A"/>
+	</linearGradient>
+	<path class="st0" d="M554.6,40.7L576.2,937c0.6,24.7-19.2,45-43.9,45h-64.6c-24.7,0-44.5-20.3-43.9-45l21.6-896.3H554.6z"/>
+	
+		<radialGradient id="SVGID_2_" cx="816.0533" cy="912.5383" r="60.6144" fx="816.3619" fy="878.2069" gradientTransform="matrix(0 -1 1 0 -412.5384 859.0626)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="4.177941e-03" style="stop-color:#FDFDFD"/>
+		<stop  offset="0.112" style="stop-color:#C8C8C8"/>
+		<stop  offset="0.2239" style="stop-color:#9A9A9A"/>
+		<stop  offset="0.3383" style="stop-color:#727272"/>
+		<stop  offset="0.4555" style="stop-color:#525252"/>
+		<stop  offset="0.5764" style="stop-color:#393939"/>
+		<stop  offset="0.7023" style="stop-color:#282828"/>
+		<stop  offset="0.8368" style="stop-color:#1D1D1D"/>
+		<stop  offset="0.9944" style="stop-color:#1A1A1A"/>
+	</radialGradient>
+	<ellipse class="st1" cx="500" cy="43" rx="54.6" ry="25"/>
+</g>
+</svg>

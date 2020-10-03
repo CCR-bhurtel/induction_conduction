@@ -1,30 +1,27 @@
 class Conductor {
-    constructor(x, y, w, h ,initialNegCharge, initialPosCharge) {
-        this.position = createVector(x, y);
-        this.width = w;
-        this.height = h;
-        this.negitive = initialNegCharge;
-        this.positive = initialPosCharge;
+  constructor(x, y, w, h, initialNegCharge, initialPosCharge) {
+    this.position = createVector(x, y);
+    this.width = w;
+    this.height = h;
+    this.negitive = initialNegCharge;
+    this.positive = initialPosCharge;
 
+    this.isDragging = false;
+  }
 
-        this.isDragging = false;
-    }
+  Start() {}
 
-    Start(){
-        
-    }
+  Update() {
+    this.render();
+  }
 
-    Update() {
-        this.render();
-    }
+  render() {
+    push();
+    fill(255);
+    rectMode(CENTER);
+    rect(this.position.x, this.position.y, this.width, this.height);
+    pop();
+  }
 
-    render() {
-        push()
-        fill(255);
-        rectMode(CENTER);
-        rect(this.position.x, this.position.y, this.width,this.height);
-        pop();
-    }
-
-    // TODO Render conductor
+  // TODO Render conductor
 }
